@@ -17,7 +17,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="gnome-books.svg"
+   sodipodi:docname="org.gnome.Books.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new"
@@ -32,9 +32,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="145.02006"
+     inkscape:cx="-81.25411"
      inkscape:cy="77.796465"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -226,7 +226,7 @@
      inkscape:label="Icon"
      id="layer1">
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="Baseplate"
        id="layer7"
        inkscape:groupmode="layer">
@@ -254,7 +254,7 @@
            y="19.745117"
            x="122.48828"
            sodipodi:role="line"
-           id="tspan3937">gnome-books</tspan></text>
+           id="tspan3937">org.gnome.Books</tspan></text>
       <rect
          style="display:inline;overflow:visible;visibility:visible;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          id="rect16x16"
