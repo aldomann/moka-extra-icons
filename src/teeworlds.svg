@@ -17,7 +17,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="teeworlds.svg.2016_08_22_15_52_40.0.svg"
+   sodipodi:docname="teeworlds.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new"
@@ -32,7 +32,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="294.17686"
+     inkscape:cx="134.17686"
      inkscape:cy="152.92089"
      inkscape:current-layer="layer7"
      showgrid="false"
@@ -186,7 +186,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
