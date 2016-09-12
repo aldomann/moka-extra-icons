@@ -26,14 +26,14 @@
      stroke="#ef2929"
      fill="#f57900"
      id="base"
-     pagecolor="#000000"
+     pagecolor="#777777"
      bordercolor="#666666"
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="360.30872"
-     inkscape:cy="137.46687"
+     inkscape:cx="240.5"
+     inkscape:cy="150.5"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -159,27 +159,6 @@
        x2="438"
        y2="112" />
     <linearGradient
-       id="outerBackgroundGradient-09">
-      <stop
-         style="stop-color:#c51e1a;stop-opacity:1;"
-         offset="0"
-         id="stop3864-8-6-95" />
-      <stop
-         style="stop-color:#de3a37;stop-opacity:1;"
-         offset="1"
-         id="stop3866-9-1-99" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient"
-       id="linearGradient3876"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,-4)"
-       x1="272"
-       y1="288"
-       x2="272"
-       y2="32" />
-    <linearGradient
        id="outerBackgroundGradient">
       <stop
          style="stop-color:#de6e1f;stop-opacity:1;"
@@ -189,49 +168,6 @@
          style="stop-color:#c94c41;stop-opacity:1;"
          offset="1"
          id="stop3866-9-1" />
-    </linearGradient>
-    <linearGradient
-       y2="32"
-       x2="272"
-       y1="288"
-       x1="272"
-       gradientTransform="translate(-2.6965332e-7,-4)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient7880"
-       xlink:href="#outerBackgroundGradient"
-       inkscape:collect="always" />
-    <linearGradient
-       id="outerBackgroundGradient-6">
-      <stop
-         id="stop3864-8-6-5"
-         offset="0"
-         style="stop-color:#c01914;stop-opacity:1;" />
-      <stop
-         id="stop3866-9-1-66"
-         offset="1"
-         style="stop-color:#d4231e;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4349-0">
-      <stop
-         id="stop4351-5"
-         offset="0"
-         style="stop-color:#f5f5f5;stop-opacity:1;" />
-      <stop
-         id="stop4353-8"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="outerBackgroundGradient-2">
-      <stop
-         id="stop3864-8-6-2"
-         offset="0"
-         style="stop-color:#e5523c;stop-opacity:1;" />
-      <stop
-         id="stop3866-9-1-6"
-         offset="1"
-         style="stop-color:#ed8879;stop-opacity:1;" />
     </linearGradient>
   </defs>
   <metadata
@@ -250,7 +186,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
