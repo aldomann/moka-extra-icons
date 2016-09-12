@@ -26,14 +26,14 @@
      stroke="#ef2929"
      fill="#f57900"
      id="base"
-     pagecolor="#000000"
+     pagecolor="#777777"
      bordercolor="#666666"
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="123.27599"
-     inkscape:cy="114.15731"
+     inkscape:cx="240.5"
+     inkscape:cy="150.5"
      inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -196,7 +196,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
