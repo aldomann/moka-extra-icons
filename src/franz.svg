@@ -34,7 +34,7 @@
      inkscape:zoom="1"
      inkscape:cx="240.5"
      inkscape:cy="150.5"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -186,7 +186,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -241,7 +241,7 @@
            y="19.745117"
            x="15.006836"
            sodipodi:role="line"
-           id="tspan3933">categories</tspan></text>
+           id="tspan3933">apps</tspan></text>
       <text
          y="19.745117"
          xml:space="preserve"
