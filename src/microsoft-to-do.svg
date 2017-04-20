@@ -17,7 +17,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.92.1 r"
-   sodipodi:docname="dart.svg"
+   sodipodi:docname="microsoft-to-do.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new"
@@ -32,9 +32,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="188.34559"
+     inkscape:cx="201.32812"
      inkscape:cy="144.85413"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -184,16 +184,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4100"
-       id="linearGradient4102"
-       x1="-202.5"
-       y1="269.25"
-       x2="-37.5"
-       y2="269.25"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-56.625938,-135.29289)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4100"
        id="linearGradient4123"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-56.625938,-135.29289)"
@@ -333,7 +323,7 @@
            y="19.745117"
            x="15.006836"
            sodipodi:role="line"
-           id="tspan3933">apps</tspan></text>
+           id="tspan3933">web</tspan></text>
       <text
          y="19.745117"
          xml:space="preserve"
@@ -345,7 +335,7 @@
            y="19.745117"
            x="122.48828"
            sodipodi:role="line"
-           id="tspan3937">microsoft-to-do</tspan></text>
+           id="tspan3937">chrome-fnboaehgffehgoackjenbjcgcjeflddp-Default</tspan></text>
       <rect
          style="display:inline;overflow:visible;visibility:visible;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          id="rect16x16"
