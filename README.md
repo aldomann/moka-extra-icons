@@ -10,7 +10,7 @@ Any bundled software is free software; you can redistribute it and/or modify it 
 
 The original source for Moka Icon Theme can be found [here](https://github.com/snwh/moka-icon-theme). You can clone the latest version from the git repository:
 
-	git clone https://github.com/moka-project/moka-icon-theme.git
+	git clone https://github.com/snwh/moka-icon-theme.git
 
 ## Using the Source
 
