@@ -70,6 +70,7 @@ Simple, you just run the script from the root of the source folder:
 ```bash
 ./INSTALL
 ```
+Note that these instructions will not install `gnome-exe-thumbnailer` and `gnome-shell-extensions` custom icons.
 
 ## Implemented Icons
 
