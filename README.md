@@ -16,7 +16,6 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/org.gnome.Usage.png)
 ![](Moka/48x48/apps/pdfeditor.png)
 ![](Moka/48x48/apps/peek.png)
-![](Moka/48x48/apps/reaper.png)
 ![](Moka/48x48/apps/sysprof.png)
 ![](Moka/48x48/apps/urserver.png)
 ![](Moka/48x48/apps/webtorrent-desktop.png)
