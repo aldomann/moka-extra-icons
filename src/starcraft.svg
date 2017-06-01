@@ -16,7 +16,7 @@
    height="3.3333335in"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    sodipodi:docname="starcraft.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -32,7 +32,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="73.85217"
+     inkscape:cx="-101.14783"
      inkscape:cy="85.962419"
      inkscape:current-layer="layer7"
      showgrid="false"
@@ -57,7 +57,7 @@
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
-     units="ft">
+     units="px">
     <inkscape:grid
        spacingy="1px"
        spacingx="1px"
@@ -241,7 +241,6 @@
          xml:space="preserve"
          x="122.48828"
          style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
-         sodipodi:linespacing="125%"
          inkscape:label="icon-name"
          id="icon-name"><tspan
            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
