@@ -262,7 +262,7 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:creator>
           <cc:Agent>
-            <dc:title>Sam Hewitt</dc:title>
+            <dc:title>Alfredo Hernández</dc:title>
           </cc:Agent>
         </dc:creator>
         <dc:source />
