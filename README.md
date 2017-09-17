@@ -2,8 +2,7 @@
 
 Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) made by [Sam Hewitt](http://snwh.org/).
 
-<!-- General -->
-![](Moka/48x48/apps/franz.png)
+![](Moka/48x48/apps/franz.png)           <!-- General -->
 ![](Moka/48x48/apps/gpmdp.png)
 ![](Moka/48x48/apps/gradio.png)
 ![](Moka/48x48/apps/kdeconnect.png)
@@ -16,32 +15,27 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/tor-browser.png)
 ![](Moka/48x48/apps/urserver.png)
 ![](Moka/48x48/apps/webtorrent-desktop.png)
-<!-- Changed -->
-![](Moka/48x48/apps/enpass.png)
+![](Moka/48x48/apps/enpass.png)          <!-- Changed -->
 ![](Moka/48x48/apps/org.gnome.Cheese.png)
-<!-- Science/Programming -->
-![](Moka/48x48/apps/devdocs-desktop.png)
+![](Moka/48x48/apps/devdocs-desktop.png) <!-- Science/Programming -->
 ![](Moka/48x48/apps/org.gnome.Builder.png)
 ![](Moka/48x48/apps/anaconda.png)
 ![](Moka/48x48/apps/jupyter.png)
 ![](Moka/48x48/apps/microscope.png)
 ![](Moka/48x48/apps/spyder.png)
 ![](Moka/48x48/apps/weka.png)
-<!-- Games -->
-![](Moka/48x48/apps/blizzard.png)
+![](Moka/48x48/apps/blizzard.png)        <!-- Games -->
 ![](Moka/48x48/apps/war3.png)
 ![](Moka/48x48/apps/starcraft.png)
 ![](Moka/48x48/apps/am2r.png)
-![](Moka/48x48/apps/aoe-2-hd.png)
+![](Moka/48x48/apps/aoe2-hd.png)
 ![](Moka/48x48/apps/civ4.png)
 ![](Moka/48x48/apps/emulationstation.png)
 ![](Moka/48x48/apps/steam-worms-reloaded.png)
 ![](Moka/48x48/apps/teeworlds.png)
 ![](Moka/48x48/apps/torchlight2.png)
 ![](Moka/48x48/apps/world-of-goo.png)
-![](Moka/48x48/apps/GameConqueror.png)
-<!-- Chrome Icons -->
-![](Moka/48x48/web/chrome-cnciopoikihiagdjbjpnocolokfelagl-Default.png)
+![](Moka/48x48/apps/GameConqueror.png) ![](Moka/48x48/web/chrome-cnciopoikihiagdjbjpnocolokfelagl-Default.png) <!-- Chrome Icons -->
 ![](Moka/48x48/web/chrome-fnboaehgffehgoackjenbjcgcjeflddp-Default.png)
 ![](Moka/48x48/web/chrome-gaedmjdfmmahhbjefcbgaolhhanlaolb-Default.png)
 
@@ -80,7 +74,9 @@ Simple, you just run the script from the root of the source folder:
 ```bash
 ./INSTALL
 ```
-Note that these instructions will not install `gnome-exe-thumbnailer` and `gnome-shell-extensions` custom icons.
+Keep in mind that you will need to manually change some `Icon=` key in some `.desktop` ![files](https://standards.freedesktop.org/desktop-entry-spec/latest/ar01s05.html) for the icons to work (e.g., programs installed via Wine).
+
+Note that the script will not install `gnome-exe-thumbnailer` and `gnome-shell-extensions` custom icons.
 
 ## Implemented Icons
 
