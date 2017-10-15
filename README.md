@@ -66,7 +66,7 @@ If it's throwing an error, the script may not be executable, try:
 	chmod +x render-bitmaps.py
 	chmod +x render-bitmaps-hidpi.py
 
-This script will look in the source directory (../src/*) and render the respective icons (provided there are changes).
+This script will look in the source directory `(../src/*)` and render the respective icons (provided there are changes).
 
 ## Installation
 
