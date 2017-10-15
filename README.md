@@ -58,8 +58,7 @@ There are scripts to simplify the rendering process; to run them (and edit icons
 
 To render new icons from their source SVG files, run the following:
 
-	./render-bitmaps.py
-	./render-bitmaps-hidpi.py
+	python render-bitmaps.py
 
 If it's throwing an error, the script may not be executable, try:
 
