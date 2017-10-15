@@ -55,6 +55,7 @@ There are scripts to simplify the rendering process; to run them (and edit icons
 
  * inkscape
  * python3
+ * gtk-engine-murrine (optional)
 
 To render new icons from their source SVG files, run the following:
 
@@ -63,7 +64,6 @@ To render new icons from their source SVG files, run the following:
 If it's throwing an error, the script may not be executable, try:
 
 	chmod +x render-bitmaps.py
-	chmod +x render-bitmaps-hidpi.py
 
 This script will look in the source directory `(../src/*)` and render the respective icons (provided there are changes).
 
@@ -75,7 +75,7 @@ Simple, you just run the script from the root of the source folder:
 ```
 Keep in mind that you will need to manually change some `Icon=` key in some `.desktop` ![files](https://standards.freedesktop.org/desktop-entry-spec/latest/ar01s05.html) for the icons to work (e.g., programs installed via Wine).
 
-Note that the script will not install `gnome-exe-thumbnailer` and `gnome-shell-extensions` custom icons.
+Note that the script will not install `exe-thumbnailer` and `gnome-shell-extensions` custom icons.
 
 ## Implemented Icons
 
