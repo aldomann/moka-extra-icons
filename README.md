@@ -2,11 +2,12 @@
 
 Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) made by [Sam Hewitt](http://snwh.org/).
 
-![](Moka/48x48/apps/franz.png)           <!-- General -->
+![](Moka/48x48/apps/com.github.babluboy.bookworm.png) <!-- General -->
+![](Moka/48x48/apps/fma-config-tool.png)
+![](Moka/48x48/apps/franz.png)
 ![](Moka/48x48/apps/gpmdp.png)
 ![](Moka/48x48/apps/gradio.png)
 ![](Moka/48x48/apps/kdeconnect.png)
-![](Moka/48x48/apps/fma-config-tool.png)
 ![](Moka/48x48/apps/onlyoffice.png)
 ![](Moka/48x48/apps/org.gnome.Usage.png)
 ![](Moka/48x48/apps/pdfeditor.png)
@@ -15,16 +16,17 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/tor-browser.png)
 ![](Moka/48x48/apps/urserver.png)
 ![](Moka/48x48/apps/webtorrent-desktop.png)
-![](Moka/48x48/apps/enpass.png)          <!-- Changed -->
+![](Moka/48x48/apps/enpass.png)                       <!-- Changed -->
 ![](Moka/48x48/apps/org.gnome.Cheese.png)
-![](Moka/48x48/apps/devdocs-desktop.png) <!-- Science/Programming -->
+![](Moka/48x48/apps/devdocs-desktop.png)              <!-- Programming -->
 ![](Moka/48x48/apps/org.gnome.Builder.png)
 ![](Moka/48x48/apps/anaconda.png)
 ![](Moka/48x48/apps/jupyter.png)
+![](Moka/48x48/apps/kompare.png)
 ![](Moka/48x48/apps/microscope.png)
 ![](Moka/48x48/apps/spyder.png)
 ![](Moka/48x48/apps/weka.png)
-![](Moka/48x48/apps/blizzard.png)        <!-- Games -->
+![](Moka/48x48/apps/blizzard.png)                     <!-- Games -->
 ![](Moka/48x48/apps/war3.png)
 ![](Moka/48x48/apps/starcraft.png)
 ![](Moka/48x48/apps/am2r.png)
