@@ -3,16 +3,29 @@
 # List of icon sizes
 declare -a dirs=("16x16" "16x16@2x" "22x22" "22x22@2x" "24x24" "24x24@2x" "32x32" "32x32@2x" "48x48" "48x48@2x" "64x64" "64x64@2x" "96x96" "96x96@2x" "256x256" "256x256@2x")
 
+function SymLink() {
+	sym_file=$(pwd)/$2
+	if [  -L $sym_file ]; then
+		ln -s $1 $2
+	fi
+}
+
 # Loop through Apps
 for size in "${dirs[@]}"; do
 	cd /home/aldomann/Git/snwh/moka-extra-icons/Moka/$size/apps/;
-	ln -s dconf-editor.png ca.desrt.dconf-editor.png;
-	ln -s gnome-tweak-tool.png org.gnome.tweaks.png;
+	SymLink "dconf-editor.png"       "ca.desrt.dconf-editor.png";
+	SymLink "dconf-editor.png"       "ca.desrt.dconf-editor.png";
+	SymLink "gnome-tweak-tool.png"   "org.gnome.tweaks.png";
+	SymLink "discord.png"            "com.discordapp.Discord.png";
+	SymLink "webtorrent-desktop.png" "io.webtorrent.WebTorrent.png";
+	SymLink "skype.png"              "com.skype.Client.png";
+	SymLink "gpmdp.png"              "com.googleplaymusicdesktopplayer.GPMDP.png";
+	SymLink "gimp.png"               "org.gimp.GIMP.png";
 done
 
 # Loop through Web Apps
 for size in "${dirs[@]}"; do
 	cd /home/aldomann/Git/snwh/moka-extra-icons/Moka/$size/web/;
-	ln -s telegram.png telegram-desktop.png;
+	SymLink "telegram.png" "telegram-desktop.png";
 done
 
