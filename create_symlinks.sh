@@ -5,7 +5,7 @@ declare -a dirs=("16x16" "16x16@2x" "22x22" "22x22@2x" "24x24" "24x24@2x" "32x32
 
 function SymLink() {
 	sym_file=$(pwd)/$2
-	if [  -L $sym_file ]; then
+	if [ ! -L $sym_file ]; then
 		ln -s $1 $2
 	fi
 }
@@ -21,6 +21,7 @@ for size in "${dirs[@]}"; do
 	SymLink "skype.png"              "com.skype.Client.png";
 	SymLink "gpmdp.png"              "com.googleplaymusicdesktopplayer.GPMDP.png";
 	SymLink "gimp.png"               "org.gimp.GIMP.png";
+	SymLink "gpick.png"              "nl.hjdskes.gcolor3.png";
 done
 
 # Loop through Web Apps
