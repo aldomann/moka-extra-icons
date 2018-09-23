@@ -24,6 +24,9 @@ for size in "${dirs[@]}"; do
 	SymLink "gpick.png"              "nl.hjdskes.gcolor3.png";
 	SymLink "aoe2-hd.png"            "steam_icon_221380.png";
 	SymLink "civ4.png"               "steam_icon_8800.png";
+	SymLink "onlyoffice.png"         "asc-de.png";
+	SymLink "hamster.png"            "hamster-time-tracker.png";
+	SymLink "pdfshuffler.png"        "pdftag.png";
 done
 
 # Loop through Web Apps
