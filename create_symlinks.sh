@@ -22,6 +22,8 @@ for size in "${dirs[@]}"; do
 	SymLink "gpmdp.png"              "com.googleplaymusicdesktopplayer.GPMDP.png";
 	SymLink "gimp.png"               "org.gimp.GIMP.png";
 	SymLink "gpick.png"              "nl.hjdskes.gcolor3.png";
+	SymLink "aoe2-hd.png"            "steam_icon_221380.png";
+	SymLink "civ4.png"               "steam_icon_8800.png";
 done
 
 # Loop through Web Apps
