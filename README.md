@@ -22,9 +22,9 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/urserver.png)
 ![](Moka/48x48/apps/webtorrent-desktop.png)
 ![](Moka/48x48/apps/yacreader.png)
-![](Moka/48x48/apps/enpass.png)                         <!-- Changed -->
+![](Moka/48x48/apps/enpass.png)   <!-- Changed -->
 ![](Moka/48x48/apps/org.gnome.Cheese.png)
-![](Moka/48x48/apps/anaconda.png)                       <!-- Programming -->
+![](Moka/48x48/apps/anaconda.png) <!-- Programming -->
 ![](Moka/48x48/apps/c.png)
 ![](Moka/48x48/apps/devdocs-desktop.png)
 ![](Moka/48x48/apps/jupyter.png)
@@ -33,19 +33,20 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/microscope.png)
 ![](Moka/48x48/apps/org.gnome.Builder.png)
 ![](Moka/48x48/apps/spyder.png)
+![](Moka/48x48/apps/sublime-text.png)
 ![](Moka/48x48/apps/weka.png)
-![](Moka/48x48/apps/blizzard.png)                       <!-- Games -->
-![](Moka/48x48/apps/war3.png)
+![](Moka/48x48/apps/blizzard.png) <!-- Blizzard Games -->
 ![](Moka/48x48/apps/starcraft.png)
-![](Moka/48x48/apps/am2r.png)
+![](Moka/48x48/apps/war3.png)
+![](Moka/48x48/apps/am2r.png)     <!-- Games -->
 ![](Moka/48x48/apps/aoe2-hd.png)
 ![](Moka/48x48/apps/civ4.png)
 ![](Moka/48x48/apps/emulationstation.png)
+![](Moka/48x48/apps/GameConqueror.png)
 ![](Moka/48x48/apps/steam-worms-reloaded.png)
 ![](Moka/48x48/apps/teeworlds.png)
 ![](Moka/48x48/apps/torchlight2.png)
 ![](Moka/48x48/apps/world-of-goo.png)
-![](Moka/48x48/apps/GameConqueror.png)
 ![](Moka/48x48/web/chrome-cnciopoikihiagdjbjpnocolokfelagl-Default.png) <!-- Chrome Icons -->
 ![](Moka/48x48/web/chrome-fnboaehgffehgoackjenbjcgcjeflddp-Default.png)
 ![](Moka/48x48/web/chrome-gaedmjdfmmahhbjefcbgaolhhanlaolb-Default.png)
