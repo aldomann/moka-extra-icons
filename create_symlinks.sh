@@ -29,6 +29,7 @@ for size in "${dirs[@]}"; do
 	SymLink "pdfshuffler.png"             "pdftag.png";
 	SymLink "gnome-power-statistics.png"  "org.gnome.PowerStats.png";
 	SymLink "accessories-text-editor.png" "com.github.fabiocolacio.marker.png";
+	SymLink "vocal.png"                   "com.github.needle-and-thread.vocal.png";
 
 done
 
