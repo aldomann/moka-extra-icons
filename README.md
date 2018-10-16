@@ -24,6 +24,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/webtorrent-desktop.png)
 ![](Moka/48x48/apps/yacreader.png)
 ![](Moka/48x48/apps/enpass.png)   <!-- Changed -->
+![](Moka/48x48/apps/enpass6.png)
 ![](Moka/48x48/apps/org.gnome.Cheese.png)
 ![](Moka/48x48/apps/anaconda.png) <!-- Programming -->
 ![](Moka/48x48/apps/c.png)
