@@ -35,7 +35,7 @@ for size in "${dirs[@]}"; do
 	SymLink "vocal.png"                    "com.github.needle-and-thread.vocal.png";
 	SymLink "utilities-system-monitor.png" "gnome-system-monitor.png";
 	SymLink "utilities-system-monitor.png" "org.gnome.Monitor.png";
-	SymLink "pdfmod.png"                   "masterpdfeditor5";
+	SymLink "pdfmod.png"                   "masterpdfeditor5.png";
 
 done
 
