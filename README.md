@@ -2,6 +2,9 @@
 
 Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) made by [Sam Hewitt](http://snwh.org/).
 
+[![Made with Inkscape](https://img.shields.io/badge/made_with-inkscape-yellow.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![CC BY-SA 4.0 License](https://img.shields.io/badge/license-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ![](Moka/48x48/apps/appimagekit-large-files-finder.png) <!-- General -->
 ![](Moka/48x48/apps/appimagekit-speedy-duplicate-finder.png)
 ![](Moka/48x48/apps/com.github.babluboy.bookworm.png)
