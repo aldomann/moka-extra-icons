@@ -36,6 +36,7 @@ for size in "${dirs[@]}"; do
 	SymLink "utilities-system-monitor.png"         "gnome-system-monitor.png";
 	SymLink "utilities-system-monitor.png"         "org.gnome.Monitor.png";
 	SymLink "pdfmod.png"                           "masterpdfeditor5.png";
+	SymLink "popcorntime.png"                      "sh.popcorntime.PopcornTime.png"
 
 done
 
