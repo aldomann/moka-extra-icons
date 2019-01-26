@@ -35,6 +35,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/c.png)
 ![](Moka/48x48/apps/devdocs-desktop.png)
 ![](Moka/48x48/apps/jupyter.png)
+![](Moka/48x48/apps/jupyter-lab.png)
 ![](Moka/48x48/apps/kompare.png)
 ![](Moka/48x48/apps/lstopo.png)
 ![](Moka/48x48/apps/microscope.png)
