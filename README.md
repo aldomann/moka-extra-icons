@@ -9,16 +9,17 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/appimagekit-speedy-duplicate-finder.png)
 ![](Moka/48x48/apps/com.github.babluboy.bookworm.png)
 ![](Moka/48x48/apps/com.github.bleakgrey.tootle.png)
+![](Moka/48x48/apps/com.uploadedlobster.peek.png)
 ![](Moka/48x48/apps/fma-config-tool.png)
 ![](Moka/48x48/apps/franz.png)
 ![](Moka/48x48/apps/gradio.png)
 ![](Moka/48x48/apps/kdeconnect.png)
+![](Moka/48x48/apps/masterpdfeditor4.png)
 ![](Moka/48x48/apps/onlyoffice.png)
 ![](Moka/48x48/apps/org.gnome.Fractal.png)
 ![](Moka/48x48/apps/org.gnome.Podcasts.png)
 ![](Moka/48x48/apps/org.gnome.Usage.png)
 ![](Moka/48x48/apps/pdfeditor.png)
-![](Moka/48x48/apps/com.uploadedlobster.peek.png)
 ![](Moka/48x48/apps/pulseeffects.png)
 ![](Moka/48x48/apps/sysprof.png)
 ![](Moka/48x48/apps/tor-browser.png)
@@ -62,6 +63,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/web/web-google-play-music.png)
 ![](Moka/48x48/apps/gpmdp.png)
 ![](Moka/48x48/apps/google-music-manager.png)
+![](Moka/48x48/web/slack.png)
 
 Moka Icon Theme (the icon assets and sources) are licensed under a [Creative Commons Attribution-ShareAlike 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode) license.
 

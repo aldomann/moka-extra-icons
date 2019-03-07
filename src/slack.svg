@@ -16,7 +16,7 @@
    height="300"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="slack.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -32,9 +32,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="243.36154"
-     inkscape:cy="197.71187"
-     inkscape:current-layer="layer7"
+     inkscape:cx="83.556058"
+     inkscape:cy="156.51389"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -93,19 +93,8 @@
   <defs
      id="defs3">
     <linearGradient
-       id="linearGradient1011">
-      <stop
-         id="stop1007"
-         offset="0"
-         style="stop-color:#562457;stop-opacity:1" />
-      <stop
-         id="stop1009"
-         offset="1"
-         style="stop-color:#743375;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1011"
+       xlink:href="#outerBackgroundGradient-5"
        id="linearGradient3267"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(-90,312,244.00001)"
@@ -115,7 +104,7 @@
        y2="244" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1011"
+       xlink:href="#outerBackgroundGradient-5"
        id="linearGradient3273"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(-90,320,172)"
@@ -125,7 +114,7 @@
        y2="172" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1011"
+       xlink:href="#outerBackgroundGradient-5"
        id="linearGradient3279"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(-90,336,75.999997)"
@@ -135,7 +124,7 @@
        y2="76" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1011"
+       xlink:href="#outerBackgroundGradient-5"
        id="linearGradient3285"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(-90,144,156.00001)"
@@ -145,7 +134,7 @@
        y2="156" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1011"
+       xlink:href="#outerBackgroundGradient-5"
        id="linearGradient3291"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(-90,432,67.999999)"
@@ -155,7 +144,7 @@
        y2="68" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1011"
+       xlink:href="#outerBackgroundGradient-5"
        id="linearGradient3297"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(-90,428.00001,112)"
@@ -165,7 +154,7 @@
        y2="112" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1011"
+       xlink:href="#outerBackgroundGradient-5"
        id="linearGradient3303"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(-90,423.99999,148)"
@@ -173,6 +162,17 @@
        y1="148"
        x2="431"
        y2="148" />
+    <linearGradient
+       id="outerBackgroundGradient-5">
+      <stop
+         id="stop3864-8-6-7"
+         offset="0"
+         style="stop-color:#f2f2f2;stop-opacity:1;" />
+      <stop
+         id="stop3866-9-1-73"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata4">
@@ -402,7 +402,7 @@
          inkscape:connector-curvature="0"
          id="path3283"
          d="m 84.000008,46.499999 c -27.431271,0 -49.500001,22.068731 -49.499998,49.499998 L 34.499992,216 c 3e-6,27.43127 22.068758,49.5 49.499995,49.5 l 120.000003,2e-5 c 27.43127,-1e-5 49.5,-22.06876 49.49999,-49.50003 L 253.5,95.999999 c 0,-27.431267 -22.06872,-49.500003 -49.49999,-49.500003 z"
-         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3285);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.73727846;marker:none;enable-background:accumulate" />
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3285);fill-opacity:1.0;fill-rule:nonzero;stroke:none;stroke-width:6.73727846;marker:none;enable-background:accumulate" />
       <path
          inkscape:connector-curvature="0"
          id="path3301"
