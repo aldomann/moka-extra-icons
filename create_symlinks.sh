@@ -16,9 +16,6 @@ function SymLink() {
 # Loop through Apps
 for size in "${dirs[@]}"; do
 	cd /home/aldomann/Git/snwh/moka-extra-icons/Moka/$size/apps/;
-	SymLink "dconf-editor.png"                     "ca.desrt.dconf-editor.png";
-	SymLink "dconf-editor.png"                     "ca.desrt.dconf-editor.png";
-	SymLink "gnome-tweak-tool.png"                 "org.gnome.tweaks.png";
 	SymLink "discord.png"                          "com.discordapp.Discord.png";
 	SymLink "webtorrent-desktop.png"               "io.webtorrent.WebTorrent.png";
 	SymLink "skype.png"                            "com.skype.Client.png";
@@ -30,14 +27,30 @@ for size in "${dirs[@]}"; do
 	SymLink "onlyoffice.png"                       "asc-de.png";
 	SymLink "hamster.png"                          "hamster-time-tracker.png";
 	SymLink "pdfshuffler.png"                      "pdftag.png";
-	SymLink "gnome-power-statistics.png"           "org.gnome.PowerStats.png";
 	SymLink "accessories-text-editor.png"          "com.github.fabiocolacio.marker.png";
 	SymLink "com.github.needleandthread.vocal.png" "com.github.needle-and-thread.vocal.png";
-	SymLink "utilities-system-monitor.png"         "gnome-system-monitor.png";
-	SymLink "utilities-system-monitor.png"         "org.gnome.Monitor.png";
 	SymLink "pdfmod.png"                           "masterpdfeditor5.png";
 	SymLink "popcorntime.png"                      "sh.popcorntime.PopcornTime.png"
+done
 
+# Loop through GNOME Apps
+for size in "${dirs[@]}"; do
+	cd /home/aldomann/Git/snwh/moka-extra-icons/Moka/$size/apps/;
+	SymLink "dconf-editor.png"                     "ca.desrt.dconf-editor.png";
+	SymLink "dconf-editor.png"                     "ca.desrt.dconf-editor.png";
+	SymLink "gnome-tweak-tool.png"                 "org.gnome.tweaks.png";
+	SymLink "gimp.png"                             "org.gimp.GIMP.png";
+	SymLink "gnome-power-statistics.png"           "org.gnome.PowerStats.png";
+	SymLink "applets-screenshooter.png"            "org.gnome.Screenshot.png";
+	SymLink "archive-manager.png"                  "org.gnome.ArchiveManager.png";
+	SymLink "disk-usage-analyzer.png"              "org.gnome.baobab.png";
+	SymLink "gnome-disks.png"                      "org.gnome.DiskUtility.png";
+	SymLink "logviewer.png"                        "org.gnome.Logs.png";
+	SymLink "preferences-desktop-font.png"         "org.gnome.font-viewer.png";
+	SymLink "preferences-system.png"               "org.gnome.Settings.png";
+	SymLink "org.gnome.SystemMonitor.png"          "gnome-system-monitor.png";
+	SymLink "org.gnome.SystemMonitor.png"          "org.gnome.Monitor.png";
+	SymLink "utilities-terminal.png"               "org.gnome.Terminal.png";
 done
 
 # Loop through Web Apps
