@@ -10,6 +10,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/com.github.babluboy.bookworm.png)
 ![](Moka/48x48/apps/com.github.bleakgrey.tootle.png)
 ![](Moka/48x48/apps/com.uploadedlobster.peek.png)
+![](Moka/48x48/apps/com.vinszent.GnomeTwitch.png)
 ![](Moka/48x48/apps/fma-config-tool.png)
 ![](Moka/48x48/apps/franz.png)
 ![](Moka/48x48/apps/gradio.png)
