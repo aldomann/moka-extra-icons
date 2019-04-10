@@ -16,6 +16,7 @@ function SymLink() {
 # Loop through Apps
 for size in "${dirs[@]}"; do
 	cd /home/aldomann/Git/snwh/moka-extra-icons/Moka/$size/apps/;
+	SymLink "anydesk.png"                          "com.anydesk.Anydesk.png";
 	SymLink "discord.png"                          "com.discordapp.Discord.png";
 	SymLink "webtorrent-desktop.png"               "io.webtorrent.WebTorrent.png";
 	SymLink "skype.png"                            "com.skype.Client.png";
