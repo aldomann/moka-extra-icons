@@ -48,6 +48,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/weka.png)
 ![](Moka/48x48/apps/blizzard.png) <!-- Blizzard Games -->
 ![](Moka/48x48/apps/starcraft.png)
+![](Moka/48x48/apps/starcraft2.png)
 ![](Moka/48x48/apps/war3.png)
 ![](Moka/48x48/apps/diablo.png)
 ![](Moka/48x48/apps/am2r.png) <!-- Games -->
