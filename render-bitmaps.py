@@ -2,14 +2,14 @@
 #
 # Legal Stuff:
 #
-# This file is part of the Moka Icon Theme and is free software; you can redistribute it and/or modify it under
-# the terms of the GNU Lesser General Public License as published by the Free Software
-# Foundation; version 3.
+# This file is part of the Moka Icon Theme and is free software; you can
+# redistribute it and/or modify it under  the terms of the GNU Lesser General
+# Public License as published by the Free Software Foundation; version 3.
 #
-# This file is part of the Moka Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
-# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-# FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
-# details.
+# This file is part of the Moka Icon Theme and is distributed in the hope that
+# it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+# of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser
+# General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License along with
 # this program; if not, see <https://www.gnu.org/licenses/lgpl-3.0.txt>
@@ -28,12 +28,13 @@ OPTIPNG = '/usr/bin/optipng'
 MAINDIR = 'Moka'
 SOURCES = ('src', )
 
-# the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)
+# the resolution that non-hi-dpi icons are rendered at
 DPI_1_TO_1 = 96
 # DPI multipliers to render at
 DPIS = [1, 2]
 
 inkscape_process = None
+
 
 def main(args, SRC):
 
@@ -42,36 +43,14 @@ def main(args, SRC):
             process = subprocess.Popen([OPTIPNG, '-quiet', '-o7', png_file])
             process.wait()
 
-    def wait_for_prompt(process, command=None):
-        if command is not None:
-            process.stdin.write((command+'\n').encode('utf-8'))
-
-        # This is kinda ugly ...
-        # Wait for just a '>', or '\n>' if some other char appearead first
-        output = process.stdout.read(1)
-        if output == b'>':
-            return
-
-        output += process.stdout.read(1)
-        while output != b'\n>':
-            output += process.stdout.read(1)
-            output = output[1:]
-
-    def start_inkscape():
-        process = subprocess.Popen([INKSCAPE, '--shell'], bufsize=0, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-        wait_for_prompt(process)
-        return process
-
     def inkscape_render_rect(icon_file, rect, dpi, output_file):
-        global inkscape_process
-        if inkscape_process is None:
-            inkscape_process = start_inkscape()
-
-        cmd = [icon_file,
-               '--export-dpi', str(dpi),
-               '-i', rect,
-               '-e', output_file]
-        wait_for_prompt(inkscape_process, ' '.join(cmd))
+        subprocess.run([
+            INKSCAPE,
+            icon_file,
+            '-i', rect,
+            '--export-dpi', str(dpi),
+            '--export-filename', output_file
+        ])
         optimize_png(output_file)
 
     class ContentHandler(xml.sax.ContentHandler):
@@ -80,6 +59,7 @@ def main(args, SRC):
         LAYER = 2
         OTHER = 3
         TEXT = 4
+
         def __init__(self, path, force=False, filter=None):
             self.stack = [self.ROOT]
             self.inside = [self.ROOT]
@@ -101,7 +81,7 @@ def main(args, SRC):
                     return
             elif self.inside[-1] == self.SVG:
                 if (name == "g" and ('inkscape:groupmode' in attrs) and ('inkscape:label' in attrs)
-                   and attrs['inkscape:groupmode'] == 'layer' and attrs['inkscape:label'].startswith('Baseplate')):
+                        and attrs['inkscape:groupmode'] == 'layer' and attrs['inkscape:label'].startswith('Baseplate')):
                     self.stack.append(self.LAYER)
                     self.inside.append(self.LAYER)
                     self.context = None
@@ -112,20 +92,19 @@ def main(args, SRC):
                 if name == "text" and ('inkscape:label' in attrs) and attrs['inkscape:label'] == 'context':
                     self.stack.append(self.TEXT)
                     self.inside.append(self.TEXT)
-                    self.text='context'
+                    self.text = 'context'
                     self.chars = ""
                     return
                 elif name == "text" and ('inkscape:label' in attrs) and attrs['inkscape:label'] == 'icon-name':
                     self.stack.append(self.TEXT)
                     self.inside.append(self.TEXT)
-                    self.text='icon-name'
+                    self.text = 'icon-name'
                     self.chars = ""
                     return
                 elif name == "rect":
                     self.rects.append(attrs)
 
             self.stack.append(self.OTHER)
-
 
         def endElement(self, name):
             stacked = self.stack.pop()
@@ -146,7 +125,7 @@ def main(args, SRC):
                 if self.filter is not None and not self.icon_name in self.filter:
                     return
 
-                print (self.context, self.icon_name)
+                print(self.context, self.icon_name)
                 for rect in self.rects:
                     for dpi_factor in DPIS:
                         width = rect['width']
@@ -170,7 +149,8 @@ def main(args, SRC):
                             stat_in = os.stat(self.path)
                             stat_out = os.stat(outfile)
                             if stat_in.st_mtime > stat_out.st_mtime:
-                                inkscape_render_rect(self.path, id, dpi, outfile)
+                                inkscape_render_rect(
+                                    self.path, id, dpi, outfile)
                                 sys.stdout.write('.')
                             else:
                                 sys.stdout.write('-')
@@ -181,19 +161,18 @@ def main(args, SRC):
         def characters(self, chars):
             self.chars += chars.strip()
 
-
     if not args.svg:
         if not os.path.exists(MAINDIR):
             os.mkdir(MAINDIR)
-        print ('')
-        print ('Rendering from SVGs in', SRC)
-        print ('')
+        print('')
+        print('Rendering from SVGs in', SRC)
+        print('')
         for file in os.listdir(SRC):
             if file[-4:] == '.svg':
                 file = os.path.join(SRC, file)
                 handler = ContentHandler(file)
                 xml.sax.parse(open(file), handler)
-        print ('')
+        print('')
     else:
         file = os.path.join(SRC, args.svg + '.svg')
 
@@ -203,6 +182,7 @@ def main(args, SRC):
         else:
             # icon not in this directory, try the next one
             pass
+
 
 parser = argparse.ArgumentParser(description='Render icons from SVG to PNG')
 
