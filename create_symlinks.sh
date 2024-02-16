@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # moka-extra-icons directory
-iconsDir=/home/aldomann/Git/icons/moka-extra-icons/Moka
+scriptDir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+iconsDir=$scriptDir/Moka
 
 # List of icon sizes
 declare -a dirs=("16x16" "16x16@2x" "22x22" "22x22@2x" "24x24" "24x24@2x" "32x32" "32x32@2x" "48x48" "48x48@2x" "64x64" "64x64@2x" "96x96" "96x96@2x" "256x256" "256x256@2x")
@@ -28,24 +29,24 @@ for size in "${dirs[@]}"; do
 	SymLink "com.github.needleandthread.vocal.png" "com.github.needle-and-thread.vocal.png";
 	SymLink "discord.png"                          "com.discordapp.Discord.png";
 	SymLink "dolphin-emu.png"                      "org.DolphinEmu.dolphin-emu.png";
+	SymLink "enpass6.png"                          "io.enpass.Enpass.png";
 	SymLink "gaupol.png"                           "io.otsaloma.gaupol.png"
 	SymLink "gimp.png"                             "org.gimp.GIMP.png";
 	SymLink "gpick.png"                            "nl.hjdskes.gcolor3.png";
 	SymLink "gpmdp.png"                            "com.googleplaymusicdesktopplayer.GPMDP.png";
 	SymLink "hamster.png"                          "hamster-time-tracker.png";
+	SymLink "hexchat.png"                          "io.github.Hexchat.png";
 	SymLink "inkscape.png"                         "org.inkscape.Inkscape.png"
 	SymLink "onlyoffice.png"                       "asc-de.png";
 	SymLink "pdfmod.png"                           "masterpdfeditor5.png";
 	SymLink "pdfshuffler.png"                      "pdftag.png";
 	SymLink "popcorntime.png"                      "sh.popcorntime.PopcornTime.png"
-	SymLink "skype.png"                            "com.skype.Client.png";
 	SymLink "sigil.png"                            "com.sigil_ebook.Sigil.png";
+	SymLink "skype.png"                            "com.skype.Client.png";
 	SymLink "teamviewer.png"                       "TeamViewer.png"
 	SymLink "webtorrent-desktop.png"               "io.webtorrent.WebTorrent.png";
-	SymLink "hexchat.png"                          "io.github.Hexchat.png";
-	SymLink "enpass6.png"                          "io.enpass.Enpass.png";
-	SymLink "yacreader.png"                        "com.yacreader.YACReader.png";
 	SymLink "yacreader-library.png"                "com.yacreader.YACReader.YACReaderLibrary.png";
+	SymLink "yacreader.png"                        "com.yacreader.YACReader.png";
 done
 
 # Loop through GNOME Apps
@@ -58,16 +59,16 @@ for size in "${dirs[@]}"; do
 	SymLink "gimp.png"                             "org.gimp.GIMP.png";
 	SymLink "gnome-disks.png"                      "org.gnome.DiskUtility.png";
 	SymLink "gnome-power-statistics.png"           "org.gnome.PowerStats.png";
+	SymLink "gnome-sound-recorder.png"             "org.gnome.SoundRecorder.png";
 	SymLink "gnome-tweak-tool.png"                 "org.gnome.tweaks.png";
 	SymLink "logviewer.png"                        "org.gnome.Logs.png";
 	SymLink "org.gnome.SystemMonitor.png"          "gnome-system-monitor.png";
 	SymLink "org.gnome.SystemMonitor.png"          "org.gnome.Monitor.png";
 	SymLink "preferences-desktop-font.png"         "org.gnome.font-viewer.png";
 	SymLink "preferences-system.png"               "org.gnome.Settings.png";
-	SymLink "utilities-terminal.png"               "org.gnome.Terminal.png";
-	SymLink "gnome-sound-recorder.png"             "org.gnome.SoundRecorder.png";
 	SymLink "simple-scan.png"                      "org.gnome.SimpleScan.png";
 	SymLink "sysprof.png"                          "org.gnome.Sysprof.png";
+	SymLink "utilities-terminal.png"               "org.gnome.Terminal.png";
 done
 
 # Loop through Games
