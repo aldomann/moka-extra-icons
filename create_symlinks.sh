@@ -38,6 +38,7 @@ for size in "${dirs[@]}"; do
 	SymLink "hexchat.png"                          "io.github.Hexchat.png";
 	SymLink "inkscape.png"                         "org.inkscape.Inkscape.png"
 	SymLink "onlyoffice.png"                       "asc-de.png";
+	SymLink "onlyoffice.png"                       "org.onlyoffice.desktopeditors.png";
 	SymLink "pdfmod.png"                           "masterpdfeditor5.png";
 	SymLink "pdfshuffler.png"                      "pdftag.png";
 	SymLink "popcorntime.png"                      "sh.popcorntime.PopcornTime.png"
@@ -83,8 +84,9 @@ done
 # Loop through Web Apps
 for size in "${dirs[@]}"; do
 	cd $iconsDir/$size/web/;
-	SymLink "telegram.png"                                        "telegram-desktop.png";
 	SymLink "chrome-gaedmjdfmmahhbjefcbgaolhhanlaolb-Default.png" "authy.png";
+	SymLink "telegram.png"                                        "telegram-desktop.png";
 	SymLink "web-spotify.png"                                     "com.spotify.Client.png";
+	SymLink "whatsapp.png"                                        "com.github.eneshecan.WhatsAppForLinux.png";
 	SymLink "whatsapp.png"                                        "whatsapp-nativefier.png";
 done
