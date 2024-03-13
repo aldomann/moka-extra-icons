@@ -22,6 +22,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/devdocs-desktop.png)
 ![](Moka/48x48/apps/enpass.png)
 ![](Moka/48x48/apps/enpass6.png)
+![](Moka/48x48/apps/fiji.png)
 ![](Moka/48x48/apps/fma-config-tool.png)
 ![](Moka/48x48/apps/franz.png)
 ![](Moka/48x48/apps/GameConqueror.png)
@@ -36,6 +37,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/kompare.png)
 ![](Moka/48x48/apps/lstopo.png)
 ![](Moka/48x48/apps/masterpdfeditor4.png)
+![](Moka/48x48/apps/MediaElch.png)
 ![](Moka/48x48/apps/microscope.png)
 ![](Moka/48x48/apps/netflix.png)
 ![](Moka/48x48/apps/onlyoffice.png)
@@ -60,6 +62,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/weka.png)
 ![](Moka/48x48/apps/yacreader-library.png)
 ![](Moka/48x48/apps/yacreader.png)
+![](Moka/48x48/apps/z-library.png)
 []() <!-- Web -->
 ![](Moka/48x48/web/chrome-cnciopoikihiagdjbjpnocolokfelagl-Default.png)
 ![](Moka/48x48/web/chrome-fnboaehgffehgoackjenbjcgcjeflddp-Default.png)
