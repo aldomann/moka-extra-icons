@@ -52,6 +52,7 @@ Custom icons for Moka Icon Theme of the [Moka Project](https://snwh.org/moka) ma
 ![](Moka/48x48/apps/org.gnome.Usage.png)
 ![](Moka/48x48/apps/pdfeditor.png)
 ![](Moka/48x48/apps/pulseeffects.png)
+![](Moka/48x48/apps/Qiplex-Disk-Space-Saver.png)
 ![](Moka/48x48/apps/Qiplex-Large-Files-Finder.png)
 ![](Moka/48x48/apps/Qiplex-Speedy-Duplicate-Finder.png)
 ![](Moka/48x48/apps/rstudio.png)
