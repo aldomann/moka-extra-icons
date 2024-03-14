@@ -52,6 +52,7 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
 		esac
 	fi
 	cp -R ./Moka/ /usr/share/icons/
+	cp index.theme /usr/share/icons/Moka/index.theme
 	chmod -R 755 /usr/share/icons/Moka
 	echo "Installation complete!"
 	set
@@ -69,6 +70,7 @@ elif [ "$UID" -ne "$ROOT_UID" ]; then
 		esac
 	fi
 	cp -R ./Moka/ $HOME/.local/share/icons/
+	cp index.theme $HOME/.local/share/icons/Moka/index.theme
 	echo "Installation complete!"
 	set
 fi
